@@ -1,0 +1,25 @@
+.main{
+    min-height:100vh;
+    background-image: url(/assets/img/qr\ cosw-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.qrcode{
+    background-image: url(/assets/img/qrcode.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+input::placeholder{
+    color:white;
+    padding:6px;
+}
+input{
+    border: 1px solid white !important;
+    color: white;
+}
+.card{
+    box-shadow: inset 0 0 15px 0 rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.3) !important;
+    border: 1px solid white !important;
+}
