@@ -1,19 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
 .logincompoent{
-    background: url(./assets/img/img.jpg);
+    background: url(/assets/img/img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;   
 }
 .main{
     min-height:100vh;
-    background-image: url(./assets/img/qr\ cosw-1.jpg);
+    background-image: url(/assets/img/qr\ cosw-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .qrcode{
-    background-image: url(./assets/img/qrcode.jpg);
+    background-image: url(/assets/img/qrcode.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
