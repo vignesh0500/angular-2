@@ -1,20 +1,57 @@
 <body>
+ <app-header></app-header> 
+
     <div class="container">
-        <div class="row">
-        <div class="col-12 col-lg-6 col-md-6">
-            <div class="card">
-                <div class="cardbody">
-                    QR code Genarater
-                    <button (click)="qrcode()"> click</button>
+        <div class="row py-5">
+        <div class="col-12 col-lg-4 col-md-6 mt-3">
+            <div class="card border-0">
+            
+                <div class="cardheder ">
+                    <img src="/assets/img/money.jpg" width="100%">
                 </div>
+                <div class="cardbody px-3 py-3">
+                    <h4 class="text-white">currentcy </h4>
+                    <button  (click)="currentcy()" class="btn w-100"> click</button>
+                </div>
+                <div class="border-b-color"></div>
             </div>
         </div>
-        <div class="col-12 col-lg-6 col-md-6">
+        <div class="col-12 col-lg-4 col-md-6 mt-3">
             <div class="card">
-                <div class="cardbody">
-                    currentcy 
-                    <button  (click)="currentcy()"> click</button>
+        
+                <div class="cardheader">
+                    <img src="/assets/img/music.jpg" width="100%">
                 </div>
+                <div class="cardbody px-3 py-3">
+                    <h4 class="text-white">Hammy musice website </h4>
+                    <button href="" class="btn w-100"> click</button>
+                </div>
+                <div class="border-b-color"></div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 mt-3">
+            <div class="card">
+        
+                <div class="cardheder">
+                    <img src="/assets/img/emcom.jpg" width="100%">
+                </div>
+                <div class="cardbody px-3 py-3">
+                    <h4 class="text-white"> E-commence website </h4>
+                    <button href="" class="btn rounded-3 w-100"> click</button>
+                </div>
+                <div class="border-b-color"></div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 mt-3">
+            <div class="card rounded-3">
+                <div class="cardheader">
+                    <img src="/assets/img/images.jpg" width="100%">
+                </div>
+                <div class="cardbody px-3 py-3"> 
+                    <h4 class="text-white">QR code Genarater</h4>
+                    <button (click)="qrcode()" class="btn rounded-3 w-100"> click</button>
+                </div>
+                <div class="border-b-color"></div>
             </div>
         </div>
     </div>

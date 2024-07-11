@@ -1,0 +1,15 @@
+.logo-img-sm{
+    width:25%;
+}
+.header{
+    background-image: linear-gradient(to right, #7286ff,#fe7587);
+    background-color: #02041D !important; 
+}
+.navbar>.container {
+    flex-wrap: nowrap !important;
+}
+@media (max-width: 445px) {
+    .logo-img-sm{
+        width:25%;
+    }
+}
